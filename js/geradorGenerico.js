@@ -144,7 +144,7 @@ var GeradorGenerico = {
 		str += "\n[b][align=center]CRÍTICA[/align][/b]";
 		if (this.Data.Steam.data.metacritic != null) {
 			str += `\n[align=center][img]${this.StaticUrl.urlMetacriticLogoImage}[/img][/align]`;
-			str += `\n[align=center][b][url=${this.Data.Steam.data.metacritic.url}]${this.Data.Steam.data.metacritic.score}/100[/b][/url][/align]`;
+			str += `\n[align=center][b][url=${this.Data.Steam.data.metacritic.url}]${this.Data.Steam.data.metacritic.score}/100[/url][/b][/align]`;
 		} else {
 			str += `\n[align=center][b]###### SEM CRÍTICA ######[/b][/align]`;
 		}
