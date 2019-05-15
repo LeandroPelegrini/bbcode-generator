@@ -191,7 +191,7 @@ var GeradorFilmeSerieEpisodio = {
                 switch (element.Source) {
                     case "Internet Movie Database":
                         str += `\n[align=center][img]${baseLib.StaticUrl.urlLogoIMDbImage}[/img][/align]`;
-                        str += `\n[align=center][b][url=https://www.imdb.com/title/${this.Data.OMDb.imdbID}]${element.Value.trim()}[/b][/url][/align]`
+                        str += `\n[align=center][b][url=https://www.imdb.com/title/${this.Data.OMDb.imdbID}]${element.Value.trim()}[/url][/b][/align]`
                         break;
 
                     case "Rotten Tomatoes":
